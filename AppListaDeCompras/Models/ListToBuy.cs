@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AppListaDeCompras.Models
 {
-    class ListToBuy
+    public class ListToBuy
     {
         public int Id { get; set; }
         public string Name { get; set; } = String.Empty;
